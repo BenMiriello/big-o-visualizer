@@ -10,7 +10,7 @@ const Chart = (props) => {
         data={{ 
           labels: props.labels, 
           datasets: [{
-            // label: "Run Time",
+            label: props.fcn,
             fill: false,
             lineTension: 0.4,
             backgroundColor: "rgba(75,192,192,0.4)",

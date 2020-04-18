@@ -7,6 +7,7 @@ const Input = props => {
   const handleSubmit = e => {
     e.preventDefault()
     props.runFcn(value)
+    props.setFcn(value)
   }
 
   const handleClear = () => {
