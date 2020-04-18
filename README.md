@@ -1,6 +1,6 @@
 # Visualize Big O
 
-*Enter a Javascript function and see a graph of its change in computational complexity for increasing inputs.*
+*Enter a Javascript function and view a graph of its computational complexity.*
 
 ### Built using:
 - React
@@ -10,7 +10,9 @@
 
 The site is in early development so there are a few limitations:
 - Can only run Javascript
-- Not all function syntax is supported. Most reliable is to enter an anonymous arrow function such as `(arg) => { return arg * 2}`.
+- Not all function syntax is supported. Most reliable is to enter an anonymous arrow function such as:
+
+`(arg) => {return arg * 2}`
 
 ### Installation
 
