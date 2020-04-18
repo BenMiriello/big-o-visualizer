@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Visualize Big O
+
+*Enter a Javascript function and see a graph of its change in computational complexity for increasing inputs.*
+
+### Built using:
+- React
+- react-chartjs-2
+
+### Usage
+
+The site is in early development so there are a few limitations:
+- Can only run Javascript
+- Not all function syntax is supported. Most reliable is to enter an anonymous arrow function such as `(arg) => { return arg * 2}`.
+
+### Installation
+
+Initialize with `npm install && npm start`
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -65,4 +83,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
