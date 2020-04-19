@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Chart, Input } from "./components";
 
 function App() {
@@ -40,7 +40,6 @@ function App() {
 
   return (
     <div>
-      <text>Enter your function here:</text>
       <Input runFcn={runFcn} setFcn={setFcn} />
       <Chart fcn={fcn} labels={labels} data={data} />
     </div>

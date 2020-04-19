@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Line } from "react-chartjs-2";
 
 const Chart = (props) => {
 
   return (
-    <div clasName="chart">
-      Run Time
+    <div className="chart">
       <Line
         data={{ 
           labels: props.labels, 

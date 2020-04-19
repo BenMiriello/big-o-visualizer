@@ -9,8 +9,13 @@
 ### Usage
 
 The site is in early development so there are a few limitations:
-- Can only run Javascript
-- Not all function syntax is supported. Most reliable is to enter an anonymous arrow function such as:
+- Works only for functions that take in a single numerical value as their argument.
+- Can only run Javascript.
+- Not all function syntaxes are supported. Declaring a function with `const`, `let`, or `var` will not work. Most reliable is to enter a standard function syntax:
+
+`function printAllPairs(n) {for (var i = 0; i < n; i++) {for (var j = 0; j < n; j++) {console.log(i, j);}}}`
+
+or an anonymous arrow function such as:
 
 `(arg) => {return arg * 2}`
 

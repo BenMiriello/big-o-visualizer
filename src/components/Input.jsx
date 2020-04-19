@@ -15,6 +15,7 @@ const Input = props => {
   }
   return (
     <div>
+      <p>Enter your function here:</p>
       <form onSubmit={handleSubmit}>
         <input
           onChange={e => setValue(e.target.value)}
@@ -23,12 +24,14 @@ const Input = props => {
           name="name"
           style={{ width: "300px", height: "100px" }}
         />
-        <button type="submit">
-          Run
-        </button>
-        <button onClick={handleClear}>
-          Clear
-        </button>
+        {/* <div> */}
+          <button type="submit" className="run">
+            <span>Submit</span>
+          </button>
+          <button onClick={handleClear}>
+            Clear
+          </button>
+        {/* </div> */}
       </form>
     </div>
   );
