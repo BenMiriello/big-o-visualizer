@@ -4,7 +4,7 @@ import { Line } from "react-chartjs-2";
 const Chart = (props) => {
 
   return (
-    <div className="chart">
+    <div className="chart" style={{margin:'20px'}}>
       <Line
         data={{ 
           labels: props.labels, 

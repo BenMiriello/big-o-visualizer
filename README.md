@@ -5,6 +5,8 @@
 ### Built using:
 - React
 - react-chartjs-2
+- react-simple-code-editor
+- prismjs
 
 ### Usage
 
@@ -17,7 +19,7 @@ The site is in early development so there are a few limitations:
 
 or an anonymous arrow function such as:
 
-`(arg) => {return arg * 2}`
+`(n) => {return n * 2}`
 
 ### Installation
 
