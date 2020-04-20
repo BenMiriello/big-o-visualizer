@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom';
 import './styles.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-// import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 ReactDOM.render(
-  // <BrowserRouter basename={window.location.pathname || "/BenMiriello/big-o-visualizer"} >
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  // </BrowserRouter>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
   , document.getElementById('root')
 );
 
