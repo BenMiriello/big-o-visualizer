@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BenMiriello/big-o-vizualizer/static/css/main.07c35ee8.chunk.css",
+    "main.js": "/BenMiriello/big-o-vizualizer/static/js/main.939600a5.chunk.js",
+    "main.js.map": "/BenMiriello/big-o-vizualizer/static/js/main.939600a5.chunk.js.map",
+    "runtime-main.js": "/BenMiriello/big-o-vizualizer/static/js/runtime-main.62779f44.js",
+    "runtime-main.js.map": "/BenMiriello/big-o-vizualizer/static/js/runtime-main.62779f44.js.map",
+    "static/js/2.d1777ff1.chunk.js": "/BenMiriello/big-o-vizualizer/static/js/2.d1777ff1.chunk.js",
+    "static/js/2.d1777ff1.chunk.js.map": "/BenMiriello/big-o-vizualizer/static/js/2.d1777ff1.chunk.js.map",
+    "index.html": "/BenMiriello/big-o-vizualizer/index.html",
+    "precache-manifest.e558db4007d27901585169525092a34b.js": "/BenMiriello/big-o-vizualizer/precache-manifest.e558db4007d27901585169525092a34b.js",
+    "service-worker.js": "/BenMiriello/big-o-vizualizer/service-worker.js",
+    "static/css/main.07c35ee8.chunk.css.map": "/BenMiriello/big-o-vizualizer/static/css/main.07c35ee8.chunk.css.map",
+    "static/js/2.d1777ff1.chunk.js.LICENSE.txt": "/BenMiriello/big-o-vizualizer/static/js/2.d1777ff1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62779f44.js",
+    "static/js/2.d1777ff1.chunk.js",
+    "static/css/main.07c35ee8.chunk.css",
+    "static/js/main.939600a5.chunk.js"
+  ]
+}
