@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BenMiriello/big-o-vizualizer/precache-manifest.e558db4007d27901585169525092a34b.js"
+  "/BenMiriello/big-o-vizualizer/precache-manifest.57eb904ce31ade50281c23e0f51474df.js"
 );
 
 self.addEventListener('message', (event) => {
