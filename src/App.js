@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Chart, Input } from "./components";
 
 function App() {
-  console.log('swizzlesticks!')
   const [fcn, setFcn] = useState("arg => arg * 2");
   const [labels, setLabels] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
   const [data, setData] = useState([
@@ -38,6 +37,13 @@ function App() {
     setLabels(labels);
     setData(times);
   };
+
+  useEffect(() => {
+    runFcn()
+    // return () => {
+    //   cleanup
+    // }
+  }, [fcn])
 
   return (
     <div>
