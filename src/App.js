@@ -40,6 +40,8 @@ function App() {
 
   const clearFcn = () => {
     setFcn('')
+    setData([]);
+    setLabels([]);
   }
 
   return (
