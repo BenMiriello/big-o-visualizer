@@ -38,16 +38,13 @@ function App() {
     setData(times);
   };
 
-  useEffect(() => {
-    runFcn()
-    // return () => {
-    //   cleanup
-    // }
-  }, [fcn])
+  const clearFcn = () => {
+    setFcn('')
+  }
 
   return (
     <div>
-      <Input runFcn={runFcn} setFcn={setFcn} />
+      <Input runFcn={runFcn} setFcn={setFcn} clearFcn={clearFcn} />
       <Chart fcn={fcn} labels={labels} data={data} />
     </div>
   );

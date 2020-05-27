@@ -4,17 +4,18 @@ import { highlight, languages } from "prismjs/components/prism-core";
 import "prismjs/components/prism-clike";
 import "prismjs/components/prism-javascript";
 
-const Input = (props) => {
+const Input = ({runFcn, setFcn, clearFcn}) => {
   const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    props.runFcn(value);
-    props.setFcn(value);
+    runFcn(value);
+    setFcn(value);
   };
 
   const handleClear = () => {
     setValue("");
+    clearFcn();
   };
   return (
     <div style={{
