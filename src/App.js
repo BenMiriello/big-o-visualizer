@@ -17,7 +17,7 @@ function App() {
     13.724999997066334,
     15.520000000833534,
   ]);
-  const [prevFcns, setPrevFcns] = useState([])
+  const [prevFcns, setPrevFcns] = useState([]);
 
   const runFcn = (strFcn) => {
     const fcn = eval(strFcn);
